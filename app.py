@@ -92,8 +92,7 @@ col_links, col_rechts = st.columns(2, gap="large")
 
 with col_links:
     st.markdown("## 📦 Hast du was gefunden?")
-    st.markdown("""> Hier kannst du alles, was du findest, hochladen,
-> damit Leute ihr Eigentum wiederfinden können.""")
+    st.markdown("""> Hier kannst du verlorne Gegenstände hochladen. """)
 
     uploaded_file = st.file_uploader(
         "Bild hochladen (JPG, PNG, JPEG)",
